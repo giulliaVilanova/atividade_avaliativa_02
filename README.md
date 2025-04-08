@@ -1,16 +1,41 @@
-# atividade_avaliativa_02
+# Atividade Avaliativa de Requisições em API usando Flutter
 
-A new Flutter project.
+Um aplicativo Flutter minimalista que busca informações de usuários a partir da API pública [ReqRes](https://reqres.in). O app permite que o usuário insira um ID (entre 1 e 12) e, ao clicar em "Buscar", exibe os dados do usuário (nome, e-mail e foto) ou uma mensagem de erro caso o ID seja inválido.
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+- **Busca de Usuário:** O usuário insere um ID (1-12) e o app realiza uma requisição à API.
+- **Exibição de Informações:** Se encontrado, o app mostra o nome, e-mail e avatar do usuário.
+- **Validação e Tratamento de Erros:** Mensagens apropriadas são exibidas para IDs inválidos e em caso de falha na requisição.
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologias Utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter](https://flutter.dev/) para desenvolvimento do app.
+- [Dart](https://dart.dev/) como linguagem de programação.
+- [http](https://pub.dev/packages/http) para realizar requisições HTTP.
+- [ReqRes API](https://reqres.in/) para fornecer os dados dos usuários.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Instalação e Execução
+
+1. **Clone o repositório**
+
+   ```bash
+   git clone <URL_DO_SEU_REPOSITÓRIO>
+   cd <NOME_DO_PROJETO>
+   ```
+
+2. **Instale as dependências**
+
+   Execute o comando abaixo para baixar os pacotes necessários:
+
+   ```bash
+   flutter pub get
+   ```
+
+3. **Execute o app**
+
+   Utilize o comando abaixo para rodar o aplicativo:
+
+   ```bash
+   flutter run
+   ```
