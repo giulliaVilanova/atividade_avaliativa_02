@@ -20,8 +20,8 @@ Um aplicativo Flutter minimalista que busca informações de usuários a partir 
 1. **Clone o repositório**
 
    ```bash
-   git clone <https://github.com/giulliaVilanova/atividade_avaliativa_02.git>
-   cd <atividade_avaliativa_02>
+   git clone https://github.com/giulliaVilanova/atividade_avaliativa_02.git
+   cd atividade_avaliativa_02
    ```
 
 2. **Instale as dependências**
